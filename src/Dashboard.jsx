@@ -3,7 +3,7 @@ import CreditCard from "./CreditCard";
 import { supabase } from "./supabase-client";
 
 
-export default function Home() {
+export default function Dashboard() {
   const [creditCards, setCreditCards] = useState([]);
   const [open, setOpen] = useState(false);
 
